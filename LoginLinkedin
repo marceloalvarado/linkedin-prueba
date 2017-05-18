@@ -1,0 +1,12 @@
+
+# language: es
+Característica: Login
+  Para Ingresar al sitio Linkedin con usuario y clave
+
+  Esquema del escenario: Login-OK
+    Dado que se ha inghresado correctamente al sitio
+    Entonces realizamos la busqueda de un contacto
+    Dado que el contacto existe
+    Entonces desplegamos su perfil
+
+  Ejemplos:
